@@ -1,3 +1,6 @@
+import Navbar from "../components/Navbar"
+
+
 // Separate 'style' b/c Tailwind CSS can get messy.
 const style = {
   wrapper: `h-screen w-screen flex flex-col`
@@ -6,7 +9,7 @@ const style = {
 export default function Home() {
   return (
     <div className={style.wrapper}>
-      {/* navbar */}
+      <Navbar />
       <div className={style.main}>
         {/* map */}
       </div>
